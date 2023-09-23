@@ -1,0 +1,97 @@
+main {
+  display: flex;
+}
+
+.wallpaper-area {
+	flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  padding-bottom: 50px;
+  flex-direction: column;
+  background-size: cover;
+  background-position: center;
+  background-image: url("./assets/img/wallpaper.png");
+}
+
+.form-side {
+  width: 100%;
+  padding: 10px;
+  max-width: 700px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.form-area {
+  width: 100%;
+  display: flex;
+  max-width: 500px;
+  flex-direction: column;
+}
+
+.form-icon {
+  margin-bottom: 30px;
+}
+
+.form-icon img {
+  width: 70px;
+}
+
+.tittle-area h1 {
+  color: var(--cinza);
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+
+.tittle-area p {
+  color: var(--cinza-claro);
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.google-button {
+  display: flex;
+  padding: 10px;
+  cursor: pointer;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  border-radius: 5px;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid #ccc;
+}
+
+.google-button img {
+  width: 25px;
+  margin-right: 15px;
+}
+.google-button input::placeholder {
+  color: #ccc;
+}
+
+.google-button p {
+  font-size: 16px;
+  color: var(--cinza);
+}
+
+.sign-email {
+  font-size: 16;
+  display: flex;
+  font-weight: 500;
+  margin-bottom: 30px;
+  align-items: center;
+  justify-content: center;
+  color: var(--cinza-claro);
+}
+.sign-email .text {
+  margin: 0px 5px;
+}
+
+.sign-email .bar {
+  width: 25%;
+  height: 3px;
+  border-radius: 5px;
+  background-color: var(--cinza-claro);
+}

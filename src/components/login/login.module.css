@@ -1,0 +1,94 @@
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 5px;
+    color: var(--cinza-claro);
+}
+
+.input {
+    outline: none;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    border: 2px solid #ccc;
+}
+
+.input:last-of-type {
+    margin-bottom: 0px;
+}
+
+.rememberForgot {
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.rememberMe {
+    display: flex;
+    align-items: center;
+}
+
+.rememberMe p {
+    font-size: 16px;
+    margin-left: 5px;
+    color: var(--cinza-claro);
+}
+
+.forgotPass a {
+    cursor: pointer;
+    font-size: 16px;
+    color: var(--roxo);
+}
+
+.forgotPass a:hover {
+    text-decoration: underline;
+}
+
+.loginButton {
+    width: 100%;
+    outline: none;
+    color: white;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 700;
+    padding: 13px 0px;
+    border-radius: 5px;
+    background-color: var(--roxo);
+}
+
+.loginButton:hover {
+    background-color: var(--roxo-escuro);
+}
+
+.registerArea {
+    display: flex;
+    margin-top: 90px;
+    margin-bottom: 10px;
+    justify-content: center;
+}
+
+.registerArea {
+    font-size: 18px;
+}
+
+.registerArea p:first-child {
+    color: var(--cinza-claro);
+}
+
+.registerArea a {
+    cursor: pointer;
+    margin-left: 5px;
+    color: var(--roxo);
+}
+
+.registerArea a:hover {
+    text-decoration: underline;
+}
