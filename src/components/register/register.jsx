@@ -18,9 +18,6 @@ export default function Register() {
           <Checkbox color="secondary"/>
           <p>Remember Me</p>
         </div>
-        <div className={ style.forgotPass }>
-          <Link to="/forgot">Forgot password?</Link>
-        </div>
       </div>
       <button type="submit" className={ style.loginButton }>Register</button>
       <div className={ style.registerArea }>
